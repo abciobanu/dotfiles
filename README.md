@@ -1,5 +1,4 @@
 # dotfiles
-My config files
 
 Make sure you also clone submodules:
 ```console

@@ -109,6 +109,7 @@ alias view="nvim -R"
 alias vimdiff="nvim -d"
 
 source <(fzf --zsh)
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/Users/anciobanu/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/anciobanu/.sdkman/bin/sdkman-init.sh"

@@ -1,3 +1,6 @@
+" Set <space> as the leader key
+let mapleader=" "
+
 " Make line numbers default
 set number
 
@@ -32,3 +35,14 @@ set signcolumn=yes
 
 " Minimal number of screen lines to keep above and below the cursor
 set scrolloff=10
+
+" Various shortcuts
+nnoremap <leader>sf :action GotoFile<CR>
+nnoremap <leader>sg :action FindInPath<CR>
+nnoremap gr :action ShowUsages<CR>
+nnoremap gI :action GotoImplementation<CR>
+nnoremap <leader>D :action GotoTypeDeclaration<CR>
+nnoremap <leader>ws :action GotoSymbol<CR>
+nnoremap <leader>rn :action RenameElement<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+nnoremap <leader>gD :action GotoDeclaration<CR>

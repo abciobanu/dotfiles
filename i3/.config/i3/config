@@ -37,6 +37,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork --color 0
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Blueman is a GTK+ Bluetooth Manager
+exec --no-startup-id blueman-applet
+
 # Increase keyboard autorepeat
 exec --no-startup-id xset r rate 250 20
 

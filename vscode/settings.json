@@ -1,5 +1,10 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.fontSize": 14,
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.lineNumbers": "relative",
     "editor.cursorSurroundingLines": 10,
     "vim.easymotion": true,

@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Hard",
-    "editor.fontSize": 14,
+    "workbench.editor.showTabs": "none",
+    "editor.fontSize": 16,
     "editor.rulers": [
         80,
         120

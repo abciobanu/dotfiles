@@ -3,7 +3,9 @@
     "workbench.editor.showTabs": "none",
     "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     "editor.fontSize": 16,
+    "editor.fontLigatures": true,
     "editor.rulers": [
         80,
         120

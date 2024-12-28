@@ -1,6 +1,8 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.editor.showTabs": "none",
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
     "editor.fontSize": 16,
     "editor.rulers": [
         80,

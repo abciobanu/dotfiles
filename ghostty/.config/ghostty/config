@@ -1,4 +1,5 @@
-window-decoration = false
-theme = "GruvboxDarkHard"
-font-family = "JetBrainsMono Nerd Font Mono"
+window-decoration = none
+theme = GruvboxDarkHard
+font-family = VictorMono Nerd Font Mono
 font-size = 16
+

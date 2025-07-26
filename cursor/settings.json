@@ -1,0 +1,21 @@
+{
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.linkedEditing": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "window.commandCenter": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": "none",
+    "workbench.sideBar.location": "right"
+}

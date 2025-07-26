@@ -1,68 +1,29 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    "workbench.editor.showTabs": "none",
-    "workbench.activityBar.location": "hidden",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-    "editor.fontSize": 16,
-    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
     "editor.rulers": [
         80,
         120
     ],
-    "editor.lineNumbers": "relative",
-    "editor.cursorSurroundingLines": 10,
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<Esc>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "lineBreakInsert"
-            ],
-            "silent": true
-        }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false
+    "extensions.ignoreRecommendations": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
     },
-    "extensions.experimental.affinity": {
-        "vscodevim.vim": 1
-    }
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": "none",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "file:/**/*.parquet": "jupyter-data-wrangler"
+    },
+    "workbench.sideBar.location": "right"
 }

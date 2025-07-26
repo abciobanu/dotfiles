@@ -8,10 +8,6 @@
 	diff = true
 	stats = true
 	status = true
-[core]
-	editor = nvim
-[merge]
-	tool = nvim -d
 [alias]
 	ci = commit
 	br = branch

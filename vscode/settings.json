@@ -18,6 +18,7 @@
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "redhat.telemetry.enabled": false,
+    "terminal.integrated.fontSize": 14,
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": "none",

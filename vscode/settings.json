@@ -10,6 +10,7 @@
         120
     ],
     "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
@@ -19,13 +20,16 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "redhat.telemetry.enabled": false,
     "terminal.integrated.fontSize": 14,
+    "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": "none",
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
         "file:/**/*.parquet": "jupyter-data-wrangler"
     },
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
+    "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+    "workbench.preferredLightColorTheme": "GitHub Light Colorblind (Beta)",
     "workbench.sideBar.location": "right"
 }

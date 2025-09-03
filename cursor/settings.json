@@ -10,14 +10,18 @@
         120
     ],
     "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
     "files.watcherExclude": {
         "**/.bloop": true,
         "**/.metals": true
     },
     "terminal.integrated.fontSize": 14,
+    "window.autoDetectColorScheme": true,
     "window.commandCenter": true,
-    "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": "none",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
+    "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+    "workbench.preferredLightColorTheme": "GitHub Light Colorblind (Beta)",
     "workbench.sideBar.location": "right"
 }

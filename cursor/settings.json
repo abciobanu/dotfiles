@@ -16,12 +16,9 @@
         "**/.metals": true
     },
     "terminal.integrated.fontSize": 14,
-    "window.autoDetectColorScheme": true,
-    "window.commandCenter": true,
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Black Italic",
     "workbench.editor.showTabs": "none",
-    "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
-    "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
-    "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
-    "workbench.preferredLightColorTheme": "GitHub Light Colorblind (Beta)",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right"
 }

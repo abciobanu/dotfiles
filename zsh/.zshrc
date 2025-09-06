@@ -110,5 +110,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
+eval "$(zoxide init zsh)"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/Users/anciobanu/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/anciobanu/.sdkman/bin/sdkman-init.sh"

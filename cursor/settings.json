@@ -1,6 +1,6 @@
 {
     "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "editor.fontFamily": "'DepartureMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.linkedEditing": true,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -17,8 +17,8 @@
     },
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
-    "workbench.colorTheme": "Black Italic",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.editor.showTabs": "none",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.sideBar.location": "right"
 }

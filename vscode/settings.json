@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'DepartureMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
@@ -22,12 +22,12 @@
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "Black Italic",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.editor.showTabs": "none",
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
         "file:/**/*.parquet": "jupyter-data-wrangler"
     },
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.sideBar.location": "right"
 }

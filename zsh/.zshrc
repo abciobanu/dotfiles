@@ -107,6 +107,13 @@ source <(fzf --zsh)
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# kubectl autocomplete
+autoload -Uz compinit
+compinit
+alias k=kubectl
+source <(kubectl completion zsh)
+compdef k='kubectl'
+
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 

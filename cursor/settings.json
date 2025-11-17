@@ -1,7 +1,7 @@
 {
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.linkedEditing": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
@@ -15,10 +15,10 @@
         "**/.bloop": true,
         "**/.metals": true
     },
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "window.commandCenter": false,
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.showTabs": "none",
-    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right"
 }

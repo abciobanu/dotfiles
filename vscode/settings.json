@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -19,13 +19,15 @@
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "redhat.telemetry.enabled": false,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "window.commandCenter": false,
     "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Ayu Dark",
     "workbench.editor.showTabs": "none",
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
         "file:/**/*.parquet": "jupyter-data-wrangler"
     },
+    "workbench.iconTheme": "ayu",
     "workbench.sideBar.location": "right"
 }

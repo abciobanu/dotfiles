@@ -22,12 +22,12 @@
     "terminal.integrated.fontSize": 16,
     "window.commandCenter": false,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "Ayu Dark",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.editor.showTabs": "none",
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
         "file:/**/*.parquet": "jupyter-data-wrangler"
     },
-    "workbench.iconTheme": "ayu",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.sideBar.location": "right"
 }

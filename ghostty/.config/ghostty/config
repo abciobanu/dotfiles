@@ -1,0 +1,14 @@
+theme = "Catppuccin Mocha"
+
+font-family = "JetBrainsMono Nerd Font"
+font-size = 16
+
+shell-integration = zsh
+quit-after-last-window-closed = true
+
+clipboard-read = allow
+clipboard-write = allow
+
+macos-option-as-alt = true
+
+window-decoration = none

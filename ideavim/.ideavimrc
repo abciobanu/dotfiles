@@ -1,0 +1,53 @@
+" Set <space> as the leader key
+let mapleader=" "
+
+" Make line numbers default
+set number
+
+" Enable relative line numbers
+set relativenumber
+
+" Enable mouse mode, can be useful for resizing splits for example
+set mouse=a
+
+" Sync clipboard between OS and IdeaVim
+set clipboard=unnamedplus
+
+" Enable break indent
+set breakindent
+
+" Save undo history
+set undofile
+
+" Case-insensitive searching UNLESS \C or one or more capital letters in the search term
+set ignorecase
+set smartcase
+
+" Enable incremental searching
+set incsearch
+
+" Set highlight on search, but clear on pressing <Esc> in normal mode
+set hlsearch
+nnoremap <Esc> :nohlsearch<CR>
+
+" Keep signcolumn on by default
+set signcolumn=yes
+
+" Minimal number of screen lines to keep above and below the cursor
+set scrolloff=10
+
+" Place a column line at 80 characters
+set colorcolumn=80
+
+" Various shortcuts
+nnoremap <leader>sf :action GotoFile<CR>
+nnoremap <leader>sg :action FindInPath<CR>
+nnoremap gr :action ShowUsages<CR>
+nnoremap gI :action GotoImplementation<CR>
+nnoremap <leader>D :action GotoTypeDeclaration<CR>
+nnoremap <leader>ws :action GotoSymbol<CR>
+nnoremap <leader>rn :action RenameElement<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+nnoremap <leader>gD :action GotoDeclaration<CR>
+nnoremap <leader>rf :action ReformatCode<CR>
+nnoremap <leader>oi :action OptimizeImports<CR>

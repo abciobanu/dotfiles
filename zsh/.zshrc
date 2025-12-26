@@ -119,5 +119,7 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 eval "$(zoxide init zsh)"
 
+export PATH='/Users/anciobanu/.duckdb/cli/latest':$PATH
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/Users/anciobanu/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/anciobanu/.sdkman/bin/sdkman-init.sh"

@@ -85,6 +85,9 @@ on-mode-changed = []
 
     alt-shift-semicolon = 'mode service'
 
+    cmd-h = []
+    cmd-alt-h = []
+
 [mode.service.binding]
     esc = ['reload-config', 'mode main']
     r = ['flatten-workspace-tree', 'mode main']

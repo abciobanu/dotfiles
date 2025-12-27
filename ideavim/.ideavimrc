@@ -1,11 +1,11 @@
-let mapleader=" "
+let mapleader = ' '
 
 set number
 set relativenumber
 
-set mouse=a
+set mouse = 'a'
 
-set clipboard=unnamedplus
+set clipboard = 'unnamedplus'
 
 set breakindent
 
@@ -19,11 +19,14 @@ set incsearch
 set hlsearch
 nnoremap <Esc> :nohlsearch<CR>
 
-set signcolumn=yes
+set signcolumn = 'yes'
 
-set scrolloff=10
+set scrolloff = 10
 
-set colorcolumn=80
+set colorcolumn = 80
+
+set highlightedyank
+let g:highlightedyank_highlight_duration = '150'
 
 nnoremap <leader>sf :action GotoFile<CR>
 nnoremap <leader>sg :action FindInPath<CR>

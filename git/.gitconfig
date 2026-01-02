@@ -19,4 +19,12 @@
 	visual = !gitk
 [init]
 	defaultBranch = main
+[core]
+	editor = nvim
+[merge]
+	tool = nvim -d
+[pull]
+	ff = only
+[rerere]
+	enabled = true
 

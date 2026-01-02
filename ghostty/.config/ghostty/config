@@ -1,0 +1,12 @@
+theme = "Catppuccin Mocha"
+
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 16
+
+clipboard-read = allow
+clipboard-write = allow
+
+macos-option-as-alt = true
+window-decoration = none
+quit-after-last-window-closed = true
+

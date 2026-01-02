@@ -1,0 +1,22 @@
+[user]
+	name = Andrei-Bogdan Ciobanu
+	email = cb.andreibogdan@gmail.com
+[ui "color"]
+	ui = always
+[color]
+	ui = true
+	diff = true
+	stats = true
+	status = true
+[alias]
+	ci = commit
+	br = branch
+	st = status
+	co = checkout
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	logg = log --oneline --graph --decorate --all --abbrev-commit
+	visual = !gitk
+[init]
+	defaultBranch = main
+
